@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+.reservation-section .right button{
+    background-color: gold;
+    border: none;
+    width: 100%;
+    padding: 8px 16px;
+    border-radius: .5rem;
+    margin: 0px 0px 8px;
+    height: 48px;
+}
+
+.reservation-section h1 {
+    font-family: 'Fredericka the Great', cursive;
+}
+
+@media only screen and (max-device-width: 360px) {
+    /* styles for mobile browsers smaller than 360px; */
+ }
+
+@media only screen and (max-device-width: 480px) {
+    /* styles for mobile browsers smaller than 480px; */
+}
+ 
+ @media only screen and (device-width: 768px) {
+ }
+ 
+ @media only screen and (min-width: 960px) {
+     /* styles for browsers larger than 960px; */
+ }
+ 
+ @media only screen and (min-width: 1200px) {
+     /* styles for browsers larger than 1200px; */
+ }

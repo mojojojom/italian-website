@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+.banner-hero {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("../images/bgimg1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner-line{
+  margin-top: -30px;
+  width: 260px;
+  height: 47px;
+  border-bottom: 1px solid black;
+  margin-left: 60px;
+}
+.banner-btn{
+  border-radius: 0px;
+  font-weight: bolder;
+  font-family: 'FontAwesome';
+  font-size: 12px;
+  letter-spacing: 3px;
+  margin-top: 5px;
+}
+.banner-image-left-pasta .img-fluid {
+  height: 100px;
+}
+.banner-image-bottom-left-spag {
+  position: absolute;
+  bottom: -10em;
+  left: -10em;
+}
+
+
+
+/*
+font-family: 'Fredericka the Great', cursive;
+*/
+@media only screen and (min-width: 1200px) {
+  /* styles for browsers larger than 1200px; */
+}
+@media only screen and (max-device-width: 959px) {
+  /* styles for browsers below than 959px; */
+  .banner-image-left-leaf1 img{
+    position: absolute;
+    top: -2em;
+    left: -6em;
+  }
+  .banner-image-right-pasta img{
+    position: absolute;
+    top: 2em;
+    right: -20em;
+    height: 8em;
+  }
+  .banner-image-bottom-center-tomato img{
+    position: absolute;
+    left: 0em;
+    bottom: 3em;
+    height: 6em;
+  }
+  .banner-image-bottom-left-spag img{
+    position: absolute;
+    bottom: 4em;
+    height: 14em;
+    left: 4em;
+  }
+  .banner-image-bottom-right-leaf2 img{
+    position: absolute;
+    right: -5em;
+    height: 6em;
+    bottom: 2em;
+  }
+  .banner-image-right img{
+    display: none;
+  }
+}
+@media only screen and (device-width: 768px) {
+  /* default tablet and iPad screens */
+  .banner-image-bottom-left-spag img{
+    position: absolute;
+    bottom: 4em;
+    height: 14em;
+    left: 4em;
+  }
+  .banner-image-right img{
+    display: none;
+  }
+}
+@media only screen and (max-device-width: 767px) {
+    /* styles for mobile browsers smaller than 767px; */
+    .banner-hero {
+      height: 100vh;
+      min-height: 500px;
+      background-image: url("../images/bg.png");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+    }
+    .banner-image-bottom-left-spag img{
+      display: none;
+    }
+    .banner-image-right img{
+      display: none;
+    }
+    .banner-plate img{
+      display: none;
+    }
+}
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; */
+  .banner-image-bottom-left-spag img{
+    display: none;
+  }
+  .banner-image-right img{
+    display: none;
+  }
+}
+@media only screen and (max-device-width: 360px) {
+  /* styles for mobile browsers smaller than 360px; */
+  .banner-image-bottom-left-spag img{
+    display: none;
+  }
+  .banner-line {
+    margin: 20px;
+  }
+}
+/*# sourceMappingURL=banner.css.map */
